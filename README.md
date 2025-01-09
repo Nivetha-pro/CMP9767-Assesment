@@ -28,15 +28,29 @@ colcon build --symlink-install
 ```bash
 source install/setup.bash
 ```
-### 3.1 Using the demo_inspection.py file for running the Robot Autonomously 
+### 3.1 Using the demo_inspection.py file (running the Robot Autonomously) 
 ```bash
 ros2 run cmp9767_tutorial demo_inspection
 ```
+### 3.1.1 Alternate  way to run the code 
+```bash
+ /bin/python3 /workspaces/CMP9767-Assesment-1/src/cmp9767_tutorial/cmp9767_tutorial/demo_inspection.py
+ ```
+
 ### 3.2 Using the detector_3d.py file for detecting the colour of the objects
 ```bash
 ros2 run cmp9767_tutorial detector_3d
 ```
-### 3.3 Using the counter_3d.py file for counting the coloured objects
+### 3.2.1 Alternate  way to run the code 
+```bash
+/bin/python3 /workspaces/CMP9767-Assesment-1/src/cmp9767_tutorial/cmp9767_tutorial/detector_3d.py
+```
+
+### 3.3 Using the counter_3d.py file to counting the coloured objects
 ```bash
 ros2 run cmp9767_tutorial counter_3d 
+```
+### 3.3.1 Alternate  way to run the code 
+```bash
+/bin/python3 /workspaces/CMP9767-Assesment-1/src/cmp9767_tutorial/cmp9767_tutorial/counter_3d.py
 ```
