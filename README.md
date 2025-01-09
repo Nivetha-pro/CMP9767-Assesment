@@ -1,6 +1,6 @@
 # Robot Programming Assesment 
 ## Summary
-### In this solution the robot is equipped with a camera, lidar and odometry sensor to runs autonomously using the waypoints navigation and detects/report the coloured objects and their locations in the environment.
+### In this solution, the robot is equipped with a camera, lidar and odometry sensor to runs autonomously using the waypoints navigation and detects/report the coloured objects and their locations in the environment.
 
 ## 1.Using this command to run the world in Gazebo
 ### 1.1 For running the Default Gazebo world 
